@@ -153,6 +153,7 @@ nav {
 }
 
 .step-item:hover{
+    z-index: -3;
     transform: scale(1.1, 1.1);
 }
 

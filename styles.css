@@ -573,6 +573,25 @@ footer {
     font-weight: 600;
 }
 
+body::-webkit-scrollbar {
+  width: 7px;              
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(251, 255, 252);       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(53, 53, 53);   
+  border-radius: 15px;       
+  border: 1px solid rgb(244, 252, 245);  
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(53, 53, 53);
+}
+
 
 @media (max-width: 900px) {    
     .menu-item {

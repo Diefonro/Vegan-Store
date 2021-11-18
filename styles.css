@@ -153,6 +153,7 @@ nav {
 }
 
 .step-item:hover{
+    z-index: -3;
     transform: scale(1.1, 1.1);
 }
 
@@ -571,6 +572,25 @@ footer {
     text-align: center;
     padding: 30px 0px;
     font-weight: 600;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;              
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(251, 255, 252);       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(53, 53, 53);   
+  border-radius: 15px;       
+  border: 1px solid rgb(244, 252, 245);  
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(53, 53, 53);
 }
 
 
